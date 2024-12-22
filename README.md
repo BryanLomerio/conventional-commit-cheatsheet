@@ -4,6 +4,46 @@ A simple guide to help you understand and apply the [Conventional Commit](https:
 
 ---
 
+## 🚀 How to Use Conventional Commits in Your Git Workflow
+
+### 1. **Commit Messages Using `git commit` in the Terminal**
+
+When you make changes to your code and want to commit them using **Conventional Commits**, you'll use the `git commit` command in your terminal. The key is to follow the **Conventional Commit** format for your commit messages.
+
+#### Example Command:
+In your terminal, run the following:
+
+```bash
+git commit -m "feat(auth): add Google login feature"
+
+## Steps to Commit in the Terminal
+
+1. **Make Changes**: Modify your files as needed.
+
+2. **Stage Your Changes**: Add your modified files to the staging area.
+    ```bash
+    git add <file>
+    ```
+    Or to add all changed files at once:
+    ```bash
+    git add .
+    ```
+
+3. **Commit with Conventional Commit Message**: After staging the changes, use the following command to commit:
+    ```bash
+    git commit -m "feat(button): add rounded corners"
+    ```
+
+4. **Push the Changes**: Push your commits to the remote repository.
+    ```bash
+    git push
+    ```
+    Or if you are pushing to a specific branch:
+    ```bash
+    git push origin <branch-name>
+    ```
+
+
 ## 🚀 Basic Structure
 
 Each commit message follows this structure:
