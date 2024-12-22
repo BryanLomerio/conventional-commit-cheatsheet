@@ -3,6 +3,10 @@
 A simple guide to help you understand and apply the [Conventional Commit](https://www.conventionalcommits.org/en/v1.0.0/) standard for versioning in your projects.
 
 ---
+### Helps You Be a Better Developer
+
+Adopting Conventional Commits improves your communication skills by encouraging clear and organized commit messages. It helps you focus on your changes and their impact, making it easier to manage projects and collaborate effectively.
+
 
 ## 🚀 How to Use Conventional Commits in Your Git Workflow
 
