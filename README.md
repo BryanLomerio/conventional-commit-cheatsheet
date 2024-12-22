@@ -60,77 +60,33 @@ Each commit message follows this structure:
 
 ## 📋 Types of Commit
 
-### 1. **feat**: A new feature for the user or system
+1. **feat**: A new feature for the user or system  
+   Example: `feat(auth): add Google login feature`
 
-Example:  
-`feat(auth): add Google login feature`  
-Explanation: This commit introduces a new feature for user authentication, allowing Google login.
+2. **fix**: A bug fix for the user or system  
+   Example: `fix(button): resolve issue with button hover state`
 
----
+3. **chore**: Routine tasks like maintenance or updating dependencies  
+   Example: `chore(deps): update react to version 17.0.2`
 
-### 2. **fix**: A bug fix for the user or system
+4. **docs**: Documentation updates  
+   Example: `docs(readme): update installation instructions`
 
-Example:  
-`fix(button): resolve issue with button hover state`  
-Explanation: This commit fixes a bug where the button hover state was not functioning properly.
+5. **style**: Changes related to code style (e.g., formatting, missing semi-colons)  
+   Example: `style(button): fix button alignment in CSS`
 
----
+6. **refactor**: Code change that neither fixes a bug nor adds a feature  
+   Example: `refactor(auth): simplify login form validation logic`
 
-### 3. **chore**: Routine tasks like maintenance or updating dependencies
+7. **test**: Adding or updating tests  
+   Example: `test(auth): add unit tests for login function`
 
-Example:  
-`chore(deps): update react to version 17.0.2`  
-Explanation: This commit updates the dependencies, specifically React, to a newer version.
+8. **build**: Changes that affect the build system or external dependencies  
+   Example: `build(webpack): add webpack config for production build`
 
----
+9. **ci**: Continuous integration-related changes  
+   Example: `ci(gitlab): update CI config for deployment pipeline`
 
-### 4. **docs**: Documentation updates
-
-Example:  
-`docs(readme): update installation instructions`  
-Explanation: This commit updates the README file with clearer installation instructions.
-
----
-
-### 5. **style**: Changes related to code style (e.g., formatting, missing semi-colons)
-
-Example:  
-`style(button): fix button alignment in CSS`  
-Explanation: This commit makes code style adjustments, like fixing the alignment of a button in CSS.
-
----
-
-### 6. **refactor**: Code change that neither fixes a bug nor adds a feature
-
-Example:  
-`refactor(auth): simplify login form validation logic`  
-Explanation: This commit refactors the login form validation code to make it simpler without adding any new functionality.
-
----
-
-### 7. **test**: Adding or updating tests
-
-Example:  
-`test(auth): add unit tests for login function`  
-Explanation: This commit adds new unit tests to test the login function in the authentication module.
-
----
-
-### 8. **build**: Changes that affect the build system or external dependencies
-
-Example:  
-`build(webpack): add webpack config for production build`  
-Explanation: This commit modifies the build system (Webpack) configuration to improve the production build.
-
----
-
-### 9. **ci**: Continuous integration-related changes
-
-Example:  
-`ci(gitlab): update CI config for deployment pipeline`  
-Explanation: This commit updates the GitLab CI configuration to improve the deployment pipeline.
-
----
 
 ## 🧑‍💻 Learn More
 
