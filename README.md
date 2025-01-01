@@ -78,6 +78,75 @@ Each commit message follows this structure:
 9. **ci**: Continuous integration-related changes  
    Example: `ci(gitlab): update CI config for deployment pipeline`
 
+10. **perf**: Code changes that improve performance
+   Example: `perf(api): optimize database queries for faster responses`
+
+11. **env**: Changes related to environment setup or configuration 
+    Example: `env(docker): update Dockerfile for staging environment`
+
+12. **sec**: Security fixes or improvements
+    Example: `sec(auth): add encryption for user passwords`
+
+
+
+### Initialize the Local Repository
+1. **Navigate to your desired directory** (if not already in `cheatSheet`):
+   ```bash
+   cd cheatSheet
+   ```
+
+2. **Initialize the directory as a Git repository**:
+   ```bash
+   git init
+   ```
+
+---
+
+### Clone the Repository (Preferred Method)
+Instead of pulling directly, clone the repository to ensure a clean setup:
+```bash
+git clone https://github.com/prasanth76200/conventional-commit-cheatsheet.git
+```
+
+This will create a new directory named `conventional-commit-cheatsheet` with the repository's content. If you want it cloned into the `cheatSheet` directory:
+
+1. **Go to the parent directory**:
+   ```bash
+   cd ..
+   ```
+
+2. **Clone into `cheatSheet`**:
+   ```bash
+   git clone https://github.com/prasanth76200/conventional-commit-cheatsheet.git cheatSheet
+   ```
+
+---
+
+### Pull Changes After Initialization
+If you’ve already initialized `cheatSheet` as a Git repository:
+
+1. **Add the remote repository**:
+   ```bash
+   git remote add origin https://github.com/prasanth76200/conventional-commit-cheatsheet.git
+   ```
+
+2. **Pull the latest changes**:
+   ```bash
+   git pull origin main
+   ```
+
+---
+
+### Verify
+After completing these steps, verify the setup:
+```bash
+git remote -v
+```
+
+You should see the remote repository listed.
+
+Let me know if you encounter any issues!
+   Example: `perf(api): optimize database queries for faster responses`
 
 ## 🧑‍💻 Learn More
 
