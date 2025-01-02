@@ -87,7 +87,11 @@ Each commit message follows this structure:
 12. **sec**: Security fixes or improvements
     Example: `sec(auth): add encryption for user passwords`
 
+13. **config**: Changes to configuration files
+    Example: `config: update .eslint rules for stricter code checks`
 
+14. **api**: Updates to API contracts or integrations
+    Example: `api(user): add new endpoint for user profile updates` 
 
 ## 🧑‍💻 Learn More
 
