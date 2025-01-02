@@ -78,6 +78,16 @@ Each commit message follows this structure:
 9. **ci**: Continuous integration-related changes  
    Example: `ci(gitlab): update CI config for deployment pipeline`
 
+10. **perf**: Code changes that improve performance
+   Example: `perf(api): optimize database queries for faster responses`
+
+11. **env**: Changes related to environment setup or configuration 
+    Example: `env(docker): update Dockerfile for staging environment`
+
+12. **sec**: Security fixes or improvements
+    Example: `sec(auth): add encryption for user passwords`
+
+
 
 ## 🧑‍💻 Learn More
 
