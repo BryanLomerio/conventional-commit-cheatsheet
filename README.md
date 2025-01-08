@@ -95,7 +95,6 @@ Each commit message follows this structure:
 
 
 ## Additional Commit Types
-You can include these less common but useful commit types:
 
 **revert**: Reverts a previous commit
 Example: revert(auth): rollback Google login feature
