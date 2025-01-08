@@ -93,6 +93,23 @@ Each commit message follows this structure:
 14. **api**: Updates to API contracts or integrations
     Example: `api(user): add new endpoint for user profile updates` 
 
+
+## Additional Commit Types
+You can include these less common but useful commit types:
+
+**revert**: Reverts a previous commit
+Example: revert(auth): rollback Google login feature
+
+**merge**: Indicates a merge commit
+Example: merge: branch 'feature/auth' into 'main'
+
+**deps**: Dependency-specific updates
+Example: deps: bump axios from 0.21.1 to 0.24.0
+
+**design**: UI or UX improvements
+Example: design(button): update hover effect
+
+
 ## 🧑‍💻 Learn More
 
 For a deeper understanding of Conventional Commits, check out the official documentation: [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
