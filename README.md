@@ -51,7 +51,7 @@ Each commit message follows this structure:
 
 ## 📋 Types of Commit
 
-1. **feat**: A new feature for the user or system  
+1. ## feat: A new feature for the user or system  
    Example: `feat(auth): add Google login feature`
 
 2. **fix**: A bug fix for the user or system  
@@ -92,7 +92,6 @@ Each commit message follows this structure:
 
 14. **api**: Updates to API contracts or integrations
     Example: `api(user): add new endpoint for user profile updates` 
-
 
 ## Additional Commit Types
 
