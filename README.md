@@ -51,7 +51,7 @@ Each commit message follows this structure:
 
 ## 📋 Types of Commit
 
-1. ## feat: A new feature for the user or system  
+1. **feat**: A new feature for the user or system  
    Example: `feat(auth): add Google login feature`
 
 2. **fix**: A bug fix for the user or system  
